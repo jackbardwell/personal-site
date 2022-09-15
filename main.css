@@ -42,6 +42,7 @@ padding-bottom: 40px;
 
 }
 
+
 /*About Column*/
 .item1 {
 
@@ -109,7 +110,7 @@ padding: 18px}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   background-color: none;
-  display: contents;
+  display: none;
   overflow: hidden;
   height: auto;
   text-align: left;
