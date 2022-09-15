@@ -1,0 +1,163 @@
+body {
+font-family: "Times New Roman", Times, serif;
+background-color: #F5F5F5;
+
+}
+
+{box-sizing: border-box;}
+
+/* un-visited link */
+a:link {
+  color: blue;
+  font-style: underline;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+  font-style: underline;
+}
+
+
+.title {
+font-family: "Times New Roman", Times, serif;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 40px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 0px;
+/*  grid-template-rows: repeat(7,min-content);*/
+  grid-template-columns: 330px  330px 330px 330px;
+/*  grid-auto-flow: column;*/
+
+}
+
+/*About Column*/
+.item1 {
+
+grid-column: 1; grid-row: 1;
+padding: 18px
+/*background-color: #F5F5F5;*/
+}
+
+
+/*Second Column*/
+.item2 {
+
+  grid-column: 2; grid-row: 1 span 10;
+  background-color: #F5F5F5;
+  padding: 18px
+}
+
+/*Third Column*/
+.item3 {
+
+grid-column: 3; grid-row: 1;
+padding: 18px}
+
+/*Looking For Column*/
+.item4 {
+  grid-column: 4; grid-row: 1;
+  font-family: "IBM Plex Mono", Couries, mono;
+  font-style: italic;
+  padding: 5em 18px;
+  background-color: #64E6C8;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+  font-size: 12px;
+  grid-row: 1 /10 grid-column:4;
+  height: 100%;
+  border-radius: 500px;
+  margin-top: 18px
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: none;
+  cursor: help;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  outline: none;
+  transition: 0.4s;
+  border-bottom: 1px solid;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  font-style: italic;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: none;
+  display: contents;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+  border-bottom: 1px solid;
+
+}
+
+.accordion_off {
+ font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: none;
+  cursor: help;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  outline: none;
+  transition: 0.4s;
+  border-bottom: 0px;
+
+}
+
+.panel_off {
+  background-color: none;
+  display: contents;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+  font-size: 14px;
+  padding: 14px;
+  margin-left: 18px;
+   line-height: 18px;
+  margin-right: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
