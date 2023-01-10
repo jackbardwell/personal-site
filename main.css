@@ -22,7 +22,6 @@ a:visited {
   font-style: underline;
 }
 
-
 .title {
 font-family: "Times New Roman", Times, serif;
 font-style: normal;
@@ -36,6 +35,7 @@ padding-bottom: 40px;
 .grid-container {
   display: grid;
   grid-gap: 0px;
+  height:300px;
 /*  grid-template-rows: repeat(7,min-content);*/
   grid-template-columns: 330px  330px 330px 330px;
 /*  grid-auto-flow: column;*/
@@ -71,7 +71,9 @@ padding: 18px
 
   grid-column: 2; grid-row: 1 span 10;
   background-color: none;
-  padding: 18px
+  padding: 18px;
+  height: 300px;
+  display: scroll;
 }
 
 /*Third Column*/
